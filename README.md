@@ -26,3 +26,8 @@ block 요소는 작성이 불가능
 # table code
 1. colspan : 행 병합 갯수
 2. rowspan : 열 병합 갯수
+
+# 가상클래스
+1. ::before
+2. ::after
+3. 생성자 content 옵션

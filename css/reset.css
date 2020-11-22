@@ -1,9 +1,5 @@
 html,
-body,
-div,
-ul,
-ol,
-li {
+body {
     /* 내부여백 */
     padding:0;
     /* 외부여백 */
@@ -15,6 +11,14 @@ li {
     /* 글 높이 */
     line-height:1;
     /* 내부여백의 기준 */
+    box-sizing:border-box;
+}
+div,
+ol,
+ul,
+li {
+    padding:0;
+    margin:0;
     box-sizing:border-box;
 }
 
@@ -47,4 +51,22 @@ td {
     border-collapse:collapse;
     /* 테두리 겹치는 공간 */
     border-spacing:0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin:0;
+    padding:0;
+}
+
+/* 클래스 */
+.clear, 
+.clear::after {
+    display:block;
+    content:'';
+    clear:both;
 }
